@@ -1,136 +1,284 @@
-body  {
-    margin: 30px;
+@media screen and  (min-width: 1000px) {
+    body  {
+        margin: 30px;
+    }
+    
+    .menu_droite li {
+        display: inline-block;
+        float: right;
+        list-style: none;
+        margin: 20px;
+        color: rgb(70, 69, 69);
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .menu_droite li:hover {
+        color: #0065FC;
+        border-top: 1px solid #0065FC ;
+        margin-top: 20px;
+    }
+    
+    
+    .menu_gauche{
+        display: inline-block;
+        float: left;
+        list-style: none;
+    
+    
+    }
+    
+    header .inscription {
+        color: #0065FC;
+    }
+    
+    header {
+        height: 50px;
+    }
+    
+    main h1 {
+        font-size: 20px;
+        font-family: 'Raleway', sans-serif;
+        
+    }
+    
+    main p {
+        margin-top: -10px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        color: rgb(87, 85, 85);
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+    
+
+    
+    
+    .search {
+      width: 100%;
+      position: relative;
+      display: flex;
+      
+    }
+    
+    .search img {
+        background-color: rgba(117, 115, 115, 0.356);
+        border-radius: 10px 0px 0px 10px;
+        width: 30px;
+        height: 26px;
+        padding: 5px;
+       
+    }
+    
+    .searchTerm {
+      width: 100%;
+      border: 3px solid rgba(128, 128, 128, 0.205);
+      border-right: none;
+      border-left: none;
+      padding: 5px;
+      height: 20px;
+      outline: none;
+      color: #121312;
+      font-size: 20px;
+    }
+    
+    .searchTerm:focus{
+      color: #000000;
+    }
+    
+    .searchButton {
+      width: 100px;
+      height: 36px;
+      border: 1px solid #0065FC;
+      background: #0065FC;
+      text-align: center;
+      color: #fff;
+      border-radius: 0 5px 5px 0;
+      cursor: pointer;
+      font-size: 17px;
+      padding: 5px;
+    }
+    
+    /*Resize the wrap to see the search bar change!*/
+    .wrap{
+      width: 30%;
+      position: absolute;
+      margin-top: 10px;
+      margin-left: 15%;
+      transform: translate(-50%, -50%);
+      display: inline-block;
+    
+    }
+    
+    .rap_2 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .co_2 {
+        
+        
+        margin-top: 90px;
+        color: black;
+        font-weight: bold;
+        border: 2px solid rgba(128, 128, 128, 0.534);
+        width: fit-content;
+        border-radius: 5px;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+        width: 200px;
+        font-family: 'Raleway', sans-serif;
+        margin-left: 100px;
+        border-radius: 30px;
+        
+    }
+    
+    .fa fa-search_col_2 {
+        top: px;
+    }
+
+    .co_3 {
+        margin-top: 90px;
+        color: black;
+        font-weight: bold;
+        border: 2px solid rgba(128, 128, 128, 0.534);
+        width: fit-content;
+        border-radius: 5px;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+        width: 200px;
+        font-family: 'Raleway', sans-serif;
+        margin-left: 100px;
+        border-radius: 30px;
+    }
+    
+    .fas fa-heart {
+        font-size: 5em;
+        color: black;
+    }
+
+    .co_4 {
+    
+    }
+    
+    .co_1 {
+        margin-top: 100px;
+    }
 }
 
-.menu_droite li {
-    display: inline-block;
-    float: right;
-    list-style: none;
-    margin: 20px;
-    color: rgb(70, 69, 69);
+
+section p {
+    margin-top: 10px;
     font-family: 'Raleway', sans-serif;
-}
-
-.menu_droite li:hover {
-    color: #0065FC;
-    border-top: 1px solid #0065FC ;
-    margin-top: 20px;
-}
-
-
-.menu_gauche{
-    display: inline-block;
-    float: left;
-    list-style: none;
-
-
-}
-
-header .inscription {
-    color: #0065FC;
-}
-
-header {
-    height: 50px;
-}
-
-h1 {
-    font-size: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-}
-
-main p {
-    margin-top: -10px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     color: rgb(87, 85, 85);
 }
 
-@font-face {
-    font-family: 'Raleway' , sans-serif;
-    src: url(https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap);
+section h2 {
+    font-size: 15px;
 }
 
-.search {
-  width: 100%;
-  position: relative;
-  display: flex;
-  
+section img {
+    border-radius: 20px 20px 0px 0px;
+    z-index:1;
 }
 
-.search img {
-    background-color: rgba(117, 115, 115, 0.356);
-    border-radius: 10px 0px 0px 10px;
-    width: 30px;
-    height: 26px;
-    padding: 5px;
+.titre_hébergement {
+    display: flex;
+
+}
+
+.wrap_hébergement_1 {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    background-color: rgb(228, 227, 227);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+
+.hébergement_1  {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    height: 250px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 5px 5px 5px 5px;
+    
+    
    
 }
 
-.searchTerm {
-  width: 100%;
-  border: 3px solid rgba(128, 128, 128, 0.205);
-  border-right: none;
-  border-left: none;
-  padding: 5px;
-  height: 20px;
-  outline: none;
-  color: #121312;
-  font-size: 20px;
+.texte_heb_1 {
+    margin-top: -50px;
+    background-color: rgb(255, 255, 255);
+   
 }
 
-.searchTerm:focus{
-  color: #0065FC;
+.hébergement_2  {
+    background-color: white;
+    border-radius: 20px;
+    height: 250px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+     margin-left: 30px;
+    padding: 5px 5px 5px 5px;
 }
 
-.searchButton {
-  width: 100px;
-  height: 36px;
-  border: 1px solid #0065FC;
-  background: #0065FC;
-  text-align: center;
-  color: #fff;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  font-size: 17px;
-  padding: 5px;
+.hébergement_3  {
+    background-color: white;
+    border-radius: 20px;
+    height: 250px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 30px;
+    padding: 5px 5px 5px 5px;
 }
 
-/*Resize the wrap to see the search bar change!*/
-.wrap{
-  width: 30%;
-  position: absolute;
-  margin-top: 10px;
-  margin-left: 15%;
-  transform: translate(-50%, -50%);
+.wrap_hébergement_2 {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    background-color: rgb(228, 227, 227);
+    padding: 50px;
+    border-radius: 20px;
 }
 
-.rap_2 {
-
-}
-
-.co_2 {
-    background-color: grey;
-    margin-top: 50px;
-    margin-top: 80px;
-    color: black;
-    font-weight: bold;
-    border: 2px solid grey;
-    width: fit-content;
-    border-radius: 5px;
-    cursor: pointer;
-    color: blanchedalmond;
-}
-
-.co_3 {
-
-}
-
-.co_4 {
-
-}
-
-.co_1 {
+.hébergement_4 {
+    width: 250px;
+    background-color: white;
     
+    border-radius: 10px;
+    height: 300px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 5px;
+   
+}
+
+.hébergement_5  {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    height: 300px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 5px;
+    padding-left: -20px;
+    margin-left: 20px;
+   
+}
+
+.hébergement_6 {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    height: 300px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 5px;
+    padding-left: -20px;
+    margin-left: 20px;
+    
+   
 }
