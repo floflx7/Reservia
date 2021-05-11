@@ -231,7 +231,6 @@ main p {
   background-color: #f2f2f2;
   padding: 40px;
   border-radius: 20px;
-  
 }
 
 .hébergement img {
@@ -575,9 +574,6 @@ footer h2 {
     float: right;
   }
 
-  
-  
-
   .hébergements_populaires {
     display: grid;
     grid-template-columns: auto auto;
@@ -646,13 +642,10 @@ footer h2 {
     grid-template-rows: auto auto;
   }
 
-
-  
   .wrap_hébergement {
     margin-left: auto;
-  margin-right: auto;
+    margin-right: auto;
   }
-
 
   .wrap_activités {
     display: grid;
@@ -893,7 +886,6 @@ footer h2 {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
-
   }
 
   .filtres {
@@ -948,7 +940,6 @@ footer h2 {
     padding: 0;
     margin-left: -10px;
     border-radius: 0;
-    
   }
 
   .hébergements_populaires {
@@ -1075,7 +1066,6 @@ footer h2 {
     border-radius: 0;
     margin-left: -8px;
     padding: 0;
-    
   }
 
   footer ul {
